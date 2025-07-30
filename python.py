@@ -3,11 +3,11 @@ import numpy as np
 import os
 print(os.getcwd())
 
-file_path = r"C:\Users\praveen v\Desktop\object det\coco.names.html"
+file_path = r"C:\Users\praveen v\Desktop\objectdet\coco.names.html"
 print("File Exists:", os.path.exists(file_path))
 
-cfg_path = r"C:\Users\praveen v\Desktop\object det\yolov3.cfg.txt"
-weights_path = r"C:\Users\praveen v\Desktop\object det\yolov3.weights"
+cfg_path = r"C:\Users\praveen v\Desktop\objectdet\yolov3.cfg.txt"
+weights_path = r"C:\Users\praveen v\Desktop\objectdet\yolov3.weights"
 print("CFG Path Exists:", os.path.exists(cfg_path))
 print("Weights Path Exists:", os.path.exists(weights_path))
 
